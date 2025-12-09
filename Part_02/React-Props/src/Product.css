@@ -1,0 +1,21 @@
+*{
+    width:95%;
+}
+.Product {
+    border: 2px solid blue;
+    padding: 0 10px 0 10px;
+    color: blue;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    /* width:90%; */
+    margin: 15px;
+}
+.Product:hover{
+    box-shadow: 2px 2px 8px 4px blueviolet;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+     
+}
+P{
+    color: black;
+}
