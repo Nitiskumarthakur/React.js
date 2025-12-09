@@ -14,7 +14,7 @@ export default function Todo(){
     //----Tracking on Input Box------
     let updataTodo = (event)=>{
         setNewTodo(event.target.value);
-        console.log(newTodo);
+       // console.log(newTodo);
     };
     //----Delete Btn------
     let deletbtn = (id)=>{
@@ -31,6 +31,37 @@ export default function Todo(){
         })
         );
     };
+    //------update one task Uppercase-------
+    let UppercaseOneBtn = (id)=>{
+        setTodo((prevtodo)=>
+            prevtodo.map((todo)=>{
+                if(todo.id == id){
+                    return{
+                        ...todo,
+                        task:todo.task.toUpperCase(),
+                    }
+                }else{
+                    return todo;
+                }   
+            })
+        );
+    };
+    //--------LowerCase--------
+    let lowercaseOneBtn = (id)=>{
+        setTodo((prevtodo)=>
+            prevtodo.map((todo)=>{
+                if(todo.id == id){
+                    return{
+                        ...todo,
+                        task:todo.task.toLowerCase(),
+                    }
+                }else{
+                    return todo;
+                }
+            })
+        )
+    }
+    //---------Return Section stated------------
     return (
         <div>
             <h2>Create Todo App</h2>
@@ -49,7 +80,9 @@ export default function Todo(){
                     <li key={todo.id}>
                         <span>
                             {todo.task} &nbsp;
-                            <button onClick={ ()=>deletbtn(todo.id)}>Delete</button>
+                            <button onClick={ ()=>deletbtn(todo.id)}>Delete</button> &nbsp;
+                            <button onClick={()=>UppercaseOneBtn(todo.id)}>UppercaseOne</button> &nbsp;
+                            <button onClick={()=>lowercaseOneBtn(todo.id)}>UppercaseOne</button> &nbsp; 
                         </span>
                     </li>
                   ))
