@@ -1,0 +1,15 @@
+.Product {
+    border: 2px solid black;
+    margin:0 0 25px 0;
+    padding: 0 10px 0 10px;
+    color: blue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 4px red;
+    transition: all 0.3s ease-in;
+}
+.Product:hover{
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+     
+}
