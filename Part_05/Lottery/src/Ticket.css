@@ -1,0 +1,10 @@
+.Ticket{
+    /* border: 3px solid blue;  */
+    /* display: flex;
+    flex-direction: column;
+    width: 200px; */
+    margin: 10px;
+    font-size: 2rem;
+    padding-bottom:10px;
+    border-radius: 15px;
+}
