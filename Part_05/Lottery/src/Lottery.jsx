@@ -3,14 +3,15 @@ import { genTricket, sum } from "./Helper";
 import './Lottery.css'
 import Ticket from "./Ticket";
 
-export default function Lottery({n=3, winningSum=15}){
+export default function Lottery({n=3, winCondition}){
     let[ticket, setTicket] = useState(genTricket(n));
-    let isWinning = sum(ticket) === winningSum;
+   // let isWinning = winCondition(ticket);
+    let isWinning = sum(ticket) === 15
     // console.log(isWin);
     // console.log(sum(ticket));
     
     let buyTricket = ()=>{
-        setTicket(genTricket(n));//Adding Number
+        setTicket(genTricket(n));//Genetate Number.
     }
 
     return (
