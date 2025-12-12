@@ -1,5 +1,7 @@
 import { useState,useEffect } from "react";
 import './UseCase.css'
+import Button from '@mui/material/Button';
+
 export default function UseCase(){
     let [joke, setjoke] = useState({});
 
@@ -28,7 +30,8 @@ export default function UseCase(){
                     <h2>{joke.setup}</h2>
                     <h3>{joke.punchline}</h3>
                 </div>
-                <button onClick={getJoke} className="jokeBtn">Click Here!</button>
+                {/* <button onClick={getJoke} className="jokeBtn">Click Here!</button> */}
+                <Button variant="contained" onClick={getJoke}>Click Me!</Button>
             </div>    
         </div>
     )
