@@ -1,0 +1,11 @@
+.infoBox{
+    text-align: center;
+}
+.cardContainer{
+    position: relative;
+    display:inline-block;
+    justify-content: center;
+    min-width: 0;
+    width:345px
+    
+}
