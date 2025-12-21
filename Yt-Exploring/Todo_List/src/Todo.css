@@ -1,0 +1,53 @@
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form button{
+     color: rgb(140, 242, 16);
+     height: 3.4rem;
+     margin-top: 4rem;
+}
+ul{
+    list-style: none;
+}
+ 
+ .todo-li{
+    display: inline-block;
+    background-color: blueviolet; 
+    /* width:10rem;  */
+    width: 15rem;
+    /* width: fit-content; */
+    border-radius: 10px;
+    font-size: 2rem;
+    color: white; 
+    margin-top:0.5rem;
+    padding: 5px;
+    /* text-decoration: underline; */
+} 
+.checkIcon{
+    border-radius: 3px;
+    background-color: blueviolet;
+    width: 50px;
+    color: white;
+    margin-left: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    
+}
+.clearIcon{
+    color: white;
+    background-color: blueviolet;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    border-radius:3px;
+}
+
+/* When we have done our Work */
+ 
+
+
+
+
