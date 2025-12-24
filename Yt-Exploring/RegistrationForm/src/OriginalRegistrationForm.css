@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* background-color: blanchedalmond; */
+}
+/* .container {
+  margin-top: 30px;
+  padding: 20px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  -webkit-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+  box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+} */
+
+.container{
+    margin-top: 20px;
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: white;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 15px;
+    margin:5px 0 22px 0;
+    border: none;
+    background-color: #f7f7f7;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+label{
+    margin-left: 10px;
+    font-family: 900;
+    font-size: 20px;
+}
+button{
+    width: 50%;
+    left: 25%;
+    position: relative;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(252, 243, 233);
+    border: 1px solid lab(from red l a b);
+    border-radius: 20px;
+}
+button:hover {
+    opacity: 1;
+    color: green;
+    border-color:green ;
+}
