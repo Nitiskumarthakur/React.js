@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './pokemon.css'
 import PokemonCard from './PokemonCard.jsx'
-import { fetchPokemon } from './PokemonApi';
+//import { fetchPokemon } from './PokemonApi';
 export default function Pokemon() {
 
     const [pokemon, setPokemon] = useState([]);
