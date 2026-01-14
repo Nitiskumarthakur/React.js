@@ -1,9 +1,9 @@
-import { useContext } from "react"
-import { BioContext } from "./ContextApi"
+
+import {  useBioContext } from "./ContextApi"
 
 export default function About(){
     
-    const {myAge} = useContext(BioContext);
+    const {myAge} = useBioContext()
 
     return(
         <div>

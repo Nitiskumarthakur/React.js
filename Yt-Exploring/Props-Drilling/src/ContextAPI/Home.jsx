@@ -1,8 +1,7 @@
-import { useContext } from "react"
-import { BioContext } from "./ContextApi"
+import { useBioContext } from "./ContextApi";
 export default function Home(){
 
-    const {myName} = useContext(BioContext);
+    const {myName} =  useBioContext();
     return (
         <div>
             <h2>Learn Context ApI</h2>
