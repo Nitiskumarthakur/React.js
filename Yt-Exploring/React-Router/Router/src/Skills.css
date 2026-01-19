@@ -1,0 +1,28 @@
+.skills-container{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    /* margin: 10rem auto; */
+    gap: 30px;
+}
+ 
+.skill-fade-text{
+    position: absolute;
+    font-size: 7em;  /* 12 */
+    font-weight: bold;
+    color: rgb(231, 231,231);
+    bottom: -5.5%;
+    /* bottom: 0; */
+    right: -10%;
+    user-select: none;
+}
+.caps{
+    font-size: 500;
+    color: #0000ff;
+}
+.skill-heading{
+    font-weight: bold;
+}
+.subHeading{
+    color:#145da0;
+}

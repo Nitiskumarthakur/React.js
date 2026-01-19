@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: aliceblue;
+    margin-top: 1rem;
+}
+.logo-container{
+    display: flex;
+    justify-content: baseline;  /*same line */
+    align-items: center;
+    /* margin-left: 6rem; */
+}
+.logo-text{
+    margin-left: 0.7rem;
+    font-size: 28px;
+}
+.nav-items{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem ;
+
+}
+.nav-items div{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    
+     
+}
+.nav-items div:hover{
+    font-weight: bold ;
+    transition:0.8s;
+}
+.nav-items div a{
+    text-decoration: none;
+    color: black;
+}
+
+

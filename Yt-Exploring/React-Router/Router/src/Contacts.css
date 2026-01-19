@@ -1,0 +1,77 @@
+
+.contactus-form-container{
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+     
+    
+
+}
+.contactus-heading{
+    font-size: 2.5em;
+    color: var(--bgOrange);
+    padding-top:rem;
+}
+.contactus-sub-heading{
+    font-size: 1.5rem;
+    color: #343d68aa;
+    text-transform: capitalize; /* First world capiter ho jata hai*/
+}
+.contactus-form-container{
+    /* margin-top:2px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin: 2rem 5rem;
+}
+.formfeild-container{
+    width: 100%;
+     
+}
+.formfield{
+    width: 100%;
+    height: 28px;
+    
+    /* gap: 40px; */
+    padding: 0 2rem;
+    font-size: 13px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #1f1f1f;
+    font-weight: 300px;
+    border: none;
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
+  
+    
+    
+}
+.formfield-textarea{
+    height: auto;
+    /* padding-top: 1rem; */
+}
+/* #submit-btn{
+    border: none;
+    font-size: 1rem;
+    margin-top: 1rem 0;
+}
+#submit-btn:hover{
+    scale: 0.9;
+} */
+button{
+    width: 7rem ;
+    height: 2rem;
+    background-color: bisque;
+    border: 1px solid whitesmoke;
+    font-size: 14px;
+}
+button:hover{
+    border: 1px solid green;
+    color:white;
+    background-color: green;
+}
