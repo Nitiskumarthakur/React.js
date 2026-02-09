@@ -1,0 +1,16 @@
+[
+    {   "icon":"FaLocationDot",
+        "title":"Find us",
+        "details":"Meerut"
+    },
+     {
+        "icon":"FaPhoneAlt",
+        "title":"contact us",
+        "details":"605909514"
+    },
+     {
+        "icon":"IoMdMail",
+        "title":"mail as",
+        "details":"nitish@gmail.com"
+    }
+]
