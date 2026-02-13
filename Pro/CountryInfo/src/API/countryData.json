@@ -1,0 +1,83 @@
+
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": "1.42 billion",
+    "interestingFact": "India is the world's largest democracy.",
+    "popularGame": "Cricket"
+  },
+  {
+    "id": 2,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": "1.41 billion",
+    "interestingFact": "The Great Wall of China is one of the longest structures ever built.",
+    "popularGame": "Table Tennis"
+  },
+  {
+    "id": 3,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "population": "331 million",
+    "interestingFact": "The United States has the largest economy in the world.",
+    "popularGame": "Basketball"
+  },
+  {
+    "id": 4,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": "213 million",
+    "interestingFact": "Brazil has won the FIFA World Cup more times than any other country.",
+    "popularGame": "Football"
+  },
+  {
+    "id": 5,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": "146 million",
+    "interestingFact": "Russia is the largest country in the world by land area.",
+    "popularGame": "Ice Hockey"
+  },
+  {
+    "id": 6,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": "125 million",
+    "interestingFact": "Japan is known for its advanced technology and strong work culture.",
+    "popularGame": "Baseball"
+  },
+  {
+    "id": 7,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": "83 million",
+    "interestingFact": "Germany is famous for its high-quality automobile industry.",
+    "popularGame": "Football"
+  },
+  {
+    "id": 8,
+    "countryName": "United Kingdom",
+    "capital": "London",
+    "population": "67 million",
+    "interestingFact": "The United Kingdom is the birthplace of the parliamentary system.",
+    "popularGame": "Cricket"
+  },
+  {
+    "id": 9,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": "65 million",
+    "interestingFact": "France is the most visited country in the world.",
+    "popularGame": "Football"
+  },
+  {
+    "id": 10,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": "26 million",
+    "interestingFact": "Australia is home to many unique animals like kangaroos and koalas.",
+    "popularGame": "Cricket"
+  }
+]
